@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
     s.summary           = 'S2S_GoogleIMA'
     s.homepage          = 'http://www.gfk.com/'
     s.author            = { 'GfK' => 'info@gfk.com' }
-    s.source            = { :http => 'https://s3.eu-central-1.amazonaws.com/download.sensic.net/s2s/sdk/ios/testing/1/S2S-GoogleIMA_1.zip'}
-    s.platforms = { :ios => "12.0" }
+    s.source            = { :http => 'https://s3.eu-central-1.amazonaws.com/download.sensic.net/s2s/sdk/ios/testing/1/S2S_GoogleIMA_2.zip'}
+    s.platforms = { :ios => "10.0" }
     s.ios.vendored_frameworks = 'S2S_GoogleIMA.xcframework'
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.1' }
 end
