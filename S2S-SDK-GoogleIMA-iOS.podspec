@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
     s.dependency 'GoogleAds-IMA-iOS-SDK'
     s.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     s.ios.vendored_frameworks = 'S2S_GoogleIMA.xcframework'
-    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.5' }
+    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.1' }
 end
